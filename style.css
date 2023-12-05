@@ -245,3 +245,108 @@ a {
   }
 
   /* grow end */
+
+  /* across start */
+
+  .across {
+    margin: 0 250px 0 250px;
+  }
+
+  .across__top {
+    text-align: center;
+  }
+
+  .across__big_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .across__block-one {
+    margin-left: 20px;
+  }
+
+  .across__small_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 74px;
+  }
+
+  .across__title {
+    color: #333;
+    font-size: 29px;
+    font-style: normal;
+    line-height: 36px; /* 124.138% */
+    padding-top: 69px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+  }
+
+  .across__descr {
+    color: #333;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    line-height: 22px; /* 115.789% */
+    padding-bottom: 69px;
+  }
+
+  .across__small_block-img {
+    padding-bottom: 11px;
+  }
+
+  .across__small_block-h {
+    color: #333;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 30px; /* 136.364% */
+    padding-bottom: 16px;
+  }
+
+  .across__small_block-p {
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 22px; /* 137.5% */
+  }
+
+  .across-padding {
+    margin-bottom: 71px;
+  }
+
+  /* across end */
+
+  /* plans start */
+
+  .plans {
+    margin: 0 250px 0 250px;
+  }
+
+  .plans_bg {
+    background: #DDE7ED;
+  }
+
+  .plans__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .plans_title {
+    text-align: center;
+  }
+
+  .plans_card {
+    border-radius: 3px;
+    background: #FFF;
+  }
+  
+  .grow-top__button-width{
+    width: 186px;
+    height: 42px;
+    flex-shrink: 0;
+  }
+
+ 
+  /* plans end */
