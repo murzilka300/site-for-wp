@@ -335,11 +335,14 @@ a {
 
   .plans_title {
     text-align: center;
+    padding-top: 15px;
   }
 
   .plans_card {
     border-radius: 3px;
     background: #FFF;
+    padding: 16px;
+    margin-bottom: 20px;
   }
   
   .grow-top__button-width{
@@ -348,5 +351,122 @@ a {
     flex-shrink: 0;
   }
 
+  .plans_card-prise {
+    padding-top: 10px;
+  }
+
+  .plans_card-line {
+    width: 93px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #DBDBDB;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+
+  .plans_card-descr-element{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
  
+  .plans_card-title {
+    color: #2B2B2B;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 30px; /* 136.364% */
+  }
+
+  .plans__contact {
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 22px; /* 137.5% */
+    text-align: center;
+    padding-bottom: 70px;
+  }
   /* plans end */
+
+  /* people start */
+
+  .people {
+    margin: 0 250px 0 250px;
+    padding-bottom: 70px;
+  }
+
+  .people__title {
+    color: #333;
+    text-align: center;
+    font-size: 29px;
+    font-style: normal;
+    line-height: 36px; /* 124.138% */
+    padding: 70px 0 45px 0;
+  }
+
+  .people__descr {
+    color: #333;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 31px; /* 124% */
+    padding-bottom: 22px;
+  }
+
+  .people__image {
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  
+  .people__image_descr {
+    color: #333;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 22px; /* 146.667% */
+  }
+
+  /* people end */
+
+  /* company start */
+
+  .company__icons {
+    margin: 0 250px 0 250px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .company__bg {
+    background: #A1BFD4;
+  }
+
+  /* company end */
+
+  /* footer start */
+
+  .footer__bg {
+    background: #2B2C2E;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 250px 0 250px;
+  }
+
+  .footer__right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .footer__left-title {
+    color: #E6EAED;
+    font-family: Roboto Slab;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 81.481% */
+  }
+
+  /* footer end */
